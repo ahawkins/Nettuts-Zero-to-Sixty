@@ -4,4 +4,6 @@ ActionController::Routing::Routes.draw do |map|
   end
   
   map.resource :admin_session
+  
+  map.root :controller => 'books', :action => 'index'
 end
